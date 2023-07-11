@@ -8,13 +8,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
-          <link
-            rel="preload"
-            href="/fonts/spline-sans-v8-latin-700.woff"
-            as="font"
-            crossOrigin=""
-          />
-          <link rel="preconnect" href="https://cpemael.avenir-resa.fr/"></link>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

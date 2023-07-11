@@ -6,8 +6,8 @@ import type { NextPage } from 'next';
 const Home: NextPage<{ seo: ICommon['seo'] }> = () => {
   // Ceci est à supprimer
   const seo = {
-    metaTitle: 'Accueil - NOM DU SITE',
-    metaDescription: 'Accueil',
+    metaTitle: 'HFN QR',
+    metaDescription: 'HFN',
   };
   return (
     <main>

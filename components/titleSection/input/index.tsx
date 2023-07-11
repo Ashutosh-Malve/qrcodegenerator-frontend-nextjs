@@ -14,8 +14,6 @@ const Input = ({ typeOfInput }: InputProps) => {
   const inputs: Input = {
     text: <TextInput />,
     email: <EmailInput />,
-    wifi: <>TODO</>,
-    vCard: <>TODO</>,
   };
 
   return <div className={'mt-5'}>{inputs[typeOfInput]}</div>;
